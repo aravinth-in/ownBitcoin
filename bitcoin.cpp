@@ -2,7 +2,7 @@
 using namespace std;
 long totalPopulation = 7600000000; //as of now 2022
 double bitcoinNeedToOwn = 0.00276315789; // for 7.6 Billion People
-int stageNumber = 1,twoExponent = 2;
+int stageNumber = 1,twoExponent = 1;
 int main() {
     cout<<stageNumber<<") "<<bitcoinNeedToOwn<<" Bitcoin"<<" for every "<<totalPopulation<<" people "<<"("<<twoExponent<<")"<<endl;
     
